@@ -1,0 +1,31 @@
+outline_creation:
+  description: >
+    Create a well-structured outline for the college project based on the research findings.
+    Ensure the outline covers all key areas and is logically organized.
+  expected_output: >
+    A detailed project outline with clear sections and sub-sections.
+  agent: outline_generator
+
+draft_composition:
+  description: >
+    Write detailed and informative content for the project based on the outline.
+    Ensure the content is well-written and follows academic writing standards.
+  expected_output: >
+    A complete draft of the project report with all sections fully written.
+  agent: technical_writer
+
+visual_integration:
+  description: >
+    Integrate visual elements such as charts, graphs, and images into the draft.
+    Ensure the visuals are relevant and enhance the overall quality of the report.
+  expected_output: >
+    A draft with integrated visual elements, enhancing the clarity and quality of the content.
+  agent: visual_specialist
+
+formatting_export:
+  description: >
+    Format the final document according to the specified academic standards.
+    Export the document in the desired format (PDF/DOCX).
+  expected_output: >
+    A well-formatted final document ready for submission.
+  agent: formatting_specialist

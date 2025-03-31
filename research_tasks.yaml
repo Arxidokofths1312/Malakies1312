@@ -1,0 +1,31 @@
+topic_analysis:
+  description: >
+    Analyze the given project topic to identify key areas of research.
+    Make sure to understand the scope and requirements of the project.
+  expected_output: >
+    A detailed analysis document outlining the key areas of research and their relevance to the project topic.
+  agent: research_manager
+
+source_collection:
+  description: >
+    Gather relevant and high-quality sources of information on {topic} using free APIs like Wikipedia and Crossref.
+    Ensure the sources are credible and up-to-date.
+  expected_output: >
+    A list of 10 credible sources with brief descriptions and URLs.
+  agent: researcher
+
+data_verification:
+  description: >
+    Verify the accuracy and credibility of the collected data.
+    Check for any inconsistencies or errors in the information gathered.
+  expected_output: >
+    A verification report detailing the credibility and accuracy of each source.
+  agent: data_validator
+
+reference_packaging:
+  description: >
+    Organize and format the collected references and citations according to academic standards.
+    Ensure proper citation formatting (APA/MLA) and organization.
+  expected_output: >
+    A well-organized reference list with properly formatted citations.
+  agent: citation_organizer
